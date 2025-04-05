@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+
+        <title> Home Page </title>
+
+        <style>
+            nav {background-color: #2596be;
+                padding: 10px;}
+            #logo {width: 15%;
+                    min-width: 15%;
+                    padding-right: 70%;}
+            #navbar {display: flex;text-align: right;}  
+            a {text-align: right;
+                padding: 6%;
+                text-decoration: none;
+                color: #ffff;}
+            body {margin: 0%;
+                    background-color: #ebebe0;}
+            #text {padding-left: 2%;
+                    padding-right: 2%;}
+            #box1 {display: flex;
+                    flex-direction: row;
+                    width: 100%;}
+            #box2 { border-color: #2596be; border-style: ridge;
+                    margin-left: 15%; 
+                    margin-top: 2%;
+                    margin-right: 10%;}
+            .titles{color: #2596be;}
+            #images {display: flex; 
+                background-color: #c5bcab;
+                flex-direction: row;
+                margin-right: 10%;
+                width: 100%;}
+            .menu {padding: 2%;
+            width:auto; max-width: 100%;}
+
+            @media screen and (max-width:750px) {
+                #images {flex-direction: column;}
+            }
+        </style>
+        
+    </head>
+
+
+
+<body>
+    
+    <header>
+        <nav>
+            <div id="box1">
+                <div id="logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <div id="navbar">
+                    <a href="#">About</a>
+                    <a href="#">Recipes</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <a href="#" style="background-color: #2596be;float: inline-end; padding: 1%; position: sticky;top: 2%;"> Print recipe </a>
+        <div id="box2">
+            <div id="text">
+                <h1 class="titles"> Overnight Oats Recipe</h1>
+                <p>Prep time: 2 mins
+                    <br>
+                Yield: 1 Large serving or 2 small
+                <br>
+                 Rating: 4.5 stars </p>
+                <br>
+                <h2 class="titles"> Ingredients </h2>
+                <ul>
+                    <li> 1/3 cup plain Greek yoghurt </li>
+                    <li> 1/2 cup (heaping) rolled oats</li>
+                    <li> 2/3cup unsweetened milk of choice </li>
+                    <li> 1 tablespoon chia seeds or grouned flaxmeal </li>
+                    <li>1/2 tablespoon vanilla extract</li>
+                    <li>Pinch of salt</li>
+                    <li>0-2 tablespoons honey or maple syrup</li>
+                </ul>
+                <br>
+                <h2 class="titles">Instructions</h2>
+                <p>1. Whisk together all ingredients in a medium-sized mixing bowl. Spoon into a jar with a tight-fitting lid <br>
+                2. Close and refrigerate for at least 4 hours, but preferably overnight before eating.
+                </p>
+                <br>
+                <h2 class="titles">Suggested Dietary Swaps </h2>
+                <h3 class="titles"> Vegan</h3>
+                <p>Use plant-based milk, plant-based yoghurt, and maple syrup for sweetener
+                </p>
+                <h3 class="titles"> Sugar Free</h3>
+                <p> Drop the sweetener and add 1/2 mashed ripe banana</p>
+                <h3 class="titles"> Gluten Free</h3>
+                <p>Use gluten-free oats</p>
+
+
+
+                <a href="#" style="background-color: #2596be;float: inline-end; padding: 1%; position: sticky;top: 45%;"> Shop Now </a>
+                <h2 style="color: black;background-color: #c5bcab;padding: 2%;margin-bottom: 0%;">Recommended Products</h2>
+               
+                <div id="images"> 
+                    
+                    <br>
+                    <figure>
+                        <img class="menu" src="images/oats.jpg">
+                        <figcaption>Rolled Oats, $12.99</figcaption>
+                    </figure>
+                    <figure>
+                    <img class="menu" src="images/chia.jpg">
+                    <figcaption>Chia Seeds, $15.99</figcaption>
+                    </figure>
+                    <figure>
+                    <img class="menu" src="images/pecans.jpg">
+                    <figcaption>Pecans, $13.99</figcaption>
+                    </figure>
+                    <figure>
+                    <img class="menu" src="images/maple-syrup.jpg">
+                    <figcaption>Maple Syrup,15.99</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer> </footer>
+    
+</body>
+
+</html>
